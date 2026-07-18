@@ -1,0 +1,6 @@
+{
+  "name": "18th Birthday Invitation",
+  "description": "A minimalist, scroll-driven invitation website for an 18th birthday party.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
