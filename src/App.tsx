@@ -57,13 +57,13 @@ export default function App() {
             <div className="flex flex-col items-center space-y-6">
               <span className="text-[10px] tracking-[0.4em] uppercase text-black/40 font-medium">Location</span>
               <a 
-                href="https://surl.amap.com/2AbNxgk1WcyK" 
+                href="https://surl.amap.com/ceoPpCm1h8Ye" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="group flex items-center gap-3 font-serif text-3xl md:text-4xl text-black transition-all outline-none"
               >
                 <span className="relative pb-1.5">
-                  重庆市丽晶酒店
+                  REGENT·丽晶轩
                   <span className="absolute left-0 bottom-0 w-full h-[1px] bg-black/20 group-hover:bg-black transition-colors duration-500"></span>
                 </span>
                 <ArrowUpRight className="w-5 h-5 text-black/20 group-hover:text-black group-hover:translate-x-1 group-hover:-translate-y-1 transition-all duration-500" />
@@ -111,7 +111,10 @@ export default function App() {
         style={{ opacity: s1Opacity }}
         className="fixed bottom-12 left-1/2 -translate-x-1/2 flex flex-col items-center space-y-4 pointer-events-none"
       >
-        <span className="text-[9px] tracking-[0.4em] uppercase text-black/30 font-medium">Scroll</span>
+        <div className="flex items-center gap-2 text-black/30">
+          <span className="text-[9px] tracking-[0.4em] uppercase font-medium">Scroll</span>
+          <span className="text-[9px] tracking-[0.2em] font-light pl-0.5">滑动</span>
+        </div>
         <div className="w-[1px] h-16 bg-gradient-to-b from-black/30 to-transparent"></div>
       </motion.div>
     </div>
