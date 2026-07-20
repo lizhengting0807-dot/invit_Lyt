@@ -60,10 +60,10 @@ export default function App() {
                 href="https://surl.amap.com/ceoPpCm1h8Ye" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="group flex items-center gap-3 font-serif text-3xl md:text-4xl text-black transition-all outline-none"
+                className="group flex items-center gap-2 sm:gap-3 font-serif text-[22px] sm:text-[28px] md:text-4xl text-black transition-all outline-none whitespace-nowrap"
               >
                 <span className="relative pb-1.5">
-                  REGENT·丽晶轩
+                  REGENT·丽晶轩｜流泉厅
                   <span className="absolute left-0 bottom-0 w-full h-[1px] bg-black/20 group-hover:bg-black transition-colors duration-500"></span>
                 </span>
                 <ArrowUpRight className="w-5 h-5 text-black/20 group-hover:text-black group-hover:translate-x-1 group-hover:-translate-y-1 transition-all duration-500" />
