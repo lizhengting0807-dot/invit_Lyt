@@ -35,7 +35,7 @@ export default function App() {
           style={{ opacity: s1Opacity, y: s1Y, filter: s1Filter }}
           className="absolute inset-0 flex flex-col items-center justify-center text-center px-6"
         >
-          <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl tracking-[0.2em] font-light mb-16 text-black">
+          <h1 className="font-serif text-4xl sm:text-5xl md:text-7xl lg:text-8xl tracking-[0.2em] font-light mb-16 text-black">
             INVITATION
           </h1>
           <p className="font-serif italic text-xl md:text-2xl text-black/80 mb-24">
